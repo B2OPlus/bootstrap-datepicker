@@ -49,9 +49,10 @@
 			    format: 'dd/mm/yyyy',
 			    autoclose: true,
 			    forceParse: false,
-			    todayHighlight: true
+			    todayHighlight: true,
+				language: 'ta-IN'
 		 };
-		var options = $.extend(opts,defaults);
+		var options = $.extend({},defaults);
 		$("#TamilPicker").datepicker(options);
 </script>
 </body>
